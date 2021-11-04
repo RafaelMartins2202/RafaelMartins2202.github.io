@@ -2,6 +2,24 @@
     <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript">
+function slide1(){
+document.getElementById('id').src="a.jpg";
+setTimeout("slide2()", 1000)
+}
+
+function slide2(){
+document.getElementById('id').src="b.jpg";
+setTimeout("slide3()", 1000)
+}
+
+function slide3(){
+document.getElementById('id').src="c.jpg";
+setTimeout("slide1()", 1000)
+}
+</script>
+<body onLoad="slide1()">
+<img id="id">
     </head>
     <body>
         <h1 id="Nome">Maria Clara Peixoto Araújo</h1>
@@ -11,52 +29,9 @@
         <h2 id="bb"> Minha Gatinha é tudo pra mim</h2>
         <img src="b.jpg" alt="Casalzão da porra" id="ftb">
         <h2 id="eu">Somos um casalzão da porra</h2>
+        <img src="c.jpg" alt="Casalzão da porra" id="ftc">
         <audio controls id="music">
             <source src="cc.mp3" type="audio/mpeg">
         </audio>
-    
-    
-    
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
