@@ -1,7 +1,43 @@
-#Nome {font-family: Georgia; text-align: center; margin-bottom: 2mm;}
-#brinks {font-family: Courier New; text-align: center; margin-top: 1mm;}
-#d {font-family: Helvetica; text-align: center;}
-#ft {width: 400px;display: block; margin-right: 0%;}
-#ftb {width: 800px; display: block; margin-left: 40%; margin-top: -50%;}
-#eu {margin-left: 60%;}
-#music {margin-top: -740; margin-left: 1060; width:250;}
+#Nome { font-family: Georgia; text-align: center; margin-top: -580; 
+}
+#brinks {
+    font-family: Courier New; 
+    text-align: center; 
+    margin-top: 1mm;
+}
+#d {
+    font-family: Helvetica; 
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    font-style: italic;
+}
+#eu {
+    margin-left: 60%;
+}
+#music {
+    margin-top: -230; 
+    margin-left: 1060; 
+    width:250;
+}
+#id {   
+    overflow: hidden;
+    width: 600;
+    height: 400;
+    margin-top: 200px;
+    
+}
+#bb {
+    font-size: 20px;
+    font-family: monospace;
+    font-style: italic;
+    text-align: center;
+}
+#ass {
+    font-size: 20px;
+    font-family: monospace;
+    font-style: italic;
+    text-align: center;
+    font-size: 20;
+    margin-top: 380;
+}
