@@ -1,9 +1,14 @@
-#Nome { font-family: Georgia; text-align: center; margin-top: -580; 
+#Nome { 
+    font-family: Georgia; 
+    text-align: center; 
+    margin-top: -580;
+    margin-left: 200;
 }
 #brinks {
     font-family: Courier New; 
     text-align: center; 
     margin-top: 1mm;
+    margin-left: 200;
 }
 #d {
     font-family: Helvetica; 
@@ -11,6 +16,7 @@
     font-size: 20px;
     font-family: monospace;
     font-style: italic;
+    margin-left: 200
 }
 #eu {
     margin-left: 60%;
